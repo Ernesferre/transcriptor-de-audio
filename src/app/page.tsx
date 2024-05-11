@@ -15,7 +15,7 @@ export default function Home() {
   };
 
   return (
-    <div className="bg-black text-white px-8 lg:px-20">
+    <div className="bg-black text-white px-8 lg:px-[200px]">
       <Player initialTime={start ?? 0} endTime={endTime ?? 0} />
       <Dialog data={data} handleStartTime={handleStartTime} />
     </div>
